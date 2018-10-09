@@ -1,0 +1,13 @@
+    <!-- Decrease brightness -->
+    <keybind key="XF86MonBrightnessDown">
+        <action name="Execute">
+                <command>python ~/.config/adjust.py dec</command>
+        </action>
+    </keybind>
+
+    <!-- Increase brightness -->
+    <keybind key="XF86MonBrightnessUp">
+        <action name="Execute">
+                <command>python ~/.config/adjust.py inc</command>
+        </action>
+    </keybind>

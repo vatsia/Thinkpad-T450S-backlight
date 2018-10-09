@@ -1,0 +1,1 @@
+acpi_osi=Linux acpi_backlight=vendor
